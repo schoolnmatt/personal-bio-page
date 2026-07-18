@@ -1,0 +1,74 @@
+﻿body {
+    background-color: mediumaquamarine;
+}
+
+h1 {
+    font: italic small-caps bold 160px impact, sans-serif;
+    text-align: center;
+    color: white;
+    margin-bottom: 0;
+}
+
+h2 {
+    font: italic small-caps bold 80px impact, sans-serif;
+    text-align: center;
+    color: white;
+    margin-bottom: 0;
+}
+
+h3 {
+    font: italic small-caps bold 40px impact, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+p, ul, a {
+    font: 20px arial, sans-serif;
+    text-align: center;
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+.h3grid {
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-template : auto;
+}
+
+.ingrid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.ingrid img {
+    width: 500px;
+}
+
+.linkbutton {
+    background-color: white;
+    border: dotted;
+}
+.linkbutton:hover {
+    background-color: palevioletred;
+}
+
+.theme {
+    text-align: center;
+}
+
+.themebutton {
+    background-color: cornflowerblue;
+    color: white;
+    font: 20px arial, sans-serif;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    margin: 50px;
+    cursor: pointer;
+}
+
+.themebutton:hover {
+    background-color: lightskyblue;
+}
